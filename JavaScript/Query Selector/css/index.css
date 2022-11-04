@@ -132,14 +132,7 @@ button[disabled=disabled], button:disabled {
 .campo-invalido{
 	border: 1px solid red;
 }
-.paciete-invalido{
+
+.paciente-invalido {
 	background-color: lightcoral;
-}
-/*meu butao*/
-#executar{
-	background-color: red;
-	margin: auto;
-	text-align: center;
-	width: 150px;
-	border-radius: 10px;
 }
