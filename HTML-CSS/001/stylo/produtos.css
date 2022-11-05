@@ -1,0 +1,88 @@
+
+header{
+    background-color: #BBBBBB;
+    padding:20px 0px;
+}
+
+.container{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;/*transforma todo meu titulo em maisculo*/
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color:green;
+    text-decoration: underline;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin:0 1.5px;
+    padding: 30px 20px;
+    box-sizing: border-box; 
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+border-color: green;
+border-width: 3px;
+}
+.produtos li:active{/*:active e para quando o mause estiver clicado e segunrando o click*/
+    border-color:red;
+}
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtos-describle{
+    font-size: 18px;
+
+}
+.produtos-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url("/HTML-CSS/001/imagens/index/bg.jpg");
+}
+
+.Copyright{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
