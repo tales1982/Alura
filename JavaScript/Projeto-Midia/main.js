@@ -75,3 +75,4 @@ function playTom() {
 }
 document.querySelector(".tecla_tom").onclick = playTom;
 */
+classes.add
