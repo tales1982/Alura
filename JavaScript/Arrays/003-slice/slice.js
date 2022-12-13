@@ -1,3 +1,5 @@
+//Slice Recorta meu array, posso pegar determinados elementos do array usando o slice e jogar em um novo array.
+
 const alunos = [
   "João",
   "Juliana",
