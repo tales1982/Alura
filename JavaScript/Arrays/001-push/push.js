@@ -5,7 +5,12 @@ const notas = [10,6,8]
 
 notas.push(7)//Adicionei uma nota
 
+let somaDasNotas = 0
 
- const media = (notas[0] + notas[1] + notas[2] + notas[3]) / notas.length
+for (const nota of notas) {
+    somaDasNotas += nota
+    
+}
 
- console.log(media)
+const media = somaDasNotas / notas.length
+console.log(media)
