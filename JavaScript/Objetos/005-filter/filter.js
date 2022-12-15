@@ -32,13 +32,10 @@ filho.animalDeEstimacao.push({
 //console.log(filho)
 
 
-//Chamando uma funcao para remover animal morto
+//Chamando uma funcao para mostra animal morto
 
 let animalMorto = filho.animalDeEstimacao.filter(function(animal){
-    return animal.vivo !== true
+  return animal.vivo !== true; //Poderia ser tambem animal.vivo === false
 })
 
-
-//console.log(filho.animalDeEstimacao)
 console.log(animalMorto)
-    
